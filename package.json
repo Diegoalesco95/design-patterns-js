@@ -1,0 +1,24 @@
+{
+	"name": "design-patterns",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"lint": "eslint --fix",
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Diegoalesco95/design-patterns-js.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Diegoalesco95/design-patterns-js/issues"
+	},
+	"homepage": "https://github.com/Diegoalesco95/design-patterns-js#readme",
+	"devDependencies": {
+		"eslint": "^8.15.0",
+		"jest": "^28.1.0"
+	}
+}
