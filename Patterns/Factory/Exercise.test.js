@@ -1,7 +1,7 @@
 const PersonFactory = require('./Exercise');
 
-describe('factory', function () {
-	it('exercise', function () {
+describe('Factory', function () {
+	it('Should create a new person', function () {
 		let pf = new PersonFactory();
 
 		let p1 = pf.createPerson('Chris');

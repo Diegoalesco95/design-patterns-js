@@ -1,12 +1,12 @@
 const CodeBuilder = require('./Exercise');
 
-describe('builder', function () {
-	it('empty test', function () {
+describe('Builder', function () {
+	it('Should return empty class', function () {
 		let cb = new CodeBuilder('Foo');
 		expect(cb.toString()).toEqual('class Foo {\n}');
 	});
 
-	it('person test', function () {
+	it('Should return Person class', function () {
 		let cb = new CodeBuilder('Person');
 		cb.addField('name').addField('age');
 		expect(cb.toString()).toEqual(
