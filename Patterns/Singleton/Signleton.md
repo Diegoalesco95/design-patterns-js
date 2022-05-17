@@ -1,0 +1,21 @@
+# Singleton
+
+For some componetns it only makes sense to have one in the system.
+
+- Database repository
+- Object factory
+
+E.g. the constructor call is expensive.
+
+- We want initializatrion to only happen once.
+- We provide everyone with the same instance.
+
+Want to prevent anyone creating additional copies.
+
+> A component which is instantiated only once.
+
+# Summary
+
+- A constructor can choose what to return; we can keep returning same instance.
+- Monostate: many intances, shared data.
+- Directly depending on the Singleton is a bad idea; introduce a dependency instead.
